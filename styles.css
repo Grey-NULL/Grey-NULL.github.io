@@ -1,11 +1,7 @@
 body {
-    background: linear-gradient(45deg, #0e0e0e, #1e1e1e);
-}
-
-.container {
-    border: 2px solid #00ffcc;
-    padding: 20px;
-    box-shadow: 0px 0px 20px rgba(0, 255, 204, 0.5);
+    background-color: #0e0e0e;
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,20 +10,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    transition: all 0.3s ease-in-out;
+    color: #00ffcc;
+    text-decoration: none;
 }
 
 a:hover {
     color: #ff00cc;
     text-shadow: 0px 0px 10px rgba(255, 0, 204, 0.8);
-    animation: glow 1s ease-in-out infinite alternate;
-}
-
-@keyframes glow {
-    from {
-        text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc, 0 0 15px #00ffcc;
-    }
-    to {
-        text-shadow: 0 0 20px #00ffcc, 0 0 30px #00ffcc, 0 0 40px #00ffcc;
-    }
 }
